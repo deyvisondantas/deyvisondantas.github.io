@@ -27,11 +27,11 @@ int main(int, char**){
 		}				 // Gerando o negativo
 	}
 
-	namedWindow("Janela-1",WINDOW_AUTOSIZE); // Criando janela 
-	imshow("Janela-1", image);   		 // Exibindo imagem gerada
-	imwrite("negativo.png",image);		 // Salvando imagem
+	namedWindow("Janela-1",WINDOW_AUTOSIZE);  
+	imshow("Janela-1", image);   		 
+	imwrite("negativo.png",image);		 
 	waitKey();
-	//return 0;
+	return 0;
 
 
 }
