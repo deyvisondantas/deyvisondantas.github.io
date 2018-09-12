@@ -38,7 +38,7 @@ int main(int argc, char** argv){
 			nobjects = 0;    // Recebe zero para reiniciar a contagem		
 		}
 		
-		floodFill(image,p,0); // "Apagando bolha" colocando o valor do fundo
+		floodFill(image,p,50); // "Apagando bolha" colocando um valor diferente
 	}
 	
       }
