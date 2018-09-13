@@ -25,7 +25,7 @@ int main(int argc, char** argv){
         // Quadrante 4 - Direita inferior
         
 
-        // Rect() - Ponto inicial e a quantidade que ele vai percorrer no x e y a partir dos pontos inicial
+        // Rect() - Ponto inicial e a quantidade que ele vai percorrer no x e y a partir do ponto inicial
 	quadrante1 = image( Rect( 0 ,  0 , x/2, y/2 )).clone();  
 	quadrante2 = image( Rect(x/2,  0 , x/2, y/2 )).clone();
 	quadrante3 = image( Rect( 0 , y/2, x/2, y/2 )).clone();
